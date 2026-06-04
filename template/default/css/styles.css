@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="/template/default/css/styles.css">
+    <style>
+        body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #4e4570;
+    color: #E0B159;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("static/picture/19.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    width: 80%;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+.content h2 {
+    margin-bottom: 10px;
+}
+
+.contact-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    border: 2px solid #E0B159;
+    border-radius: 10px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #E0B159;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.icon {
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+    </style>
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="header" >
+            <a href="/home/">
+                <img src="/template/default/images/logo.png" alt="Goyastar Logo" class="logo">
+            </a>
+            <a href="/home/" style="color: #E0B159;">
+                <h1>HOME</h1>
+            </a>         
+    
+
+
+        </div>
+        <div class="content">
+            <h2>Expert in user acquisition and monetization</h2>
+            <p>Goyastar’s products and services have reached users in over 150 countries.
+                Our service is achieving globalization through localization, to localize every aspect for our business, from products and operation to marketing.
+                
+                Goyastar offers a machine-learning driven mobile DSP service. We provide marketers with a fully transparent solution to scale beyond traditional (walled garden) user acquisition channels, and maximize return on ad spend (ROAS) by focusing on targeted deep-funnel in-app events.
+                
+                Our machine learning models handle over 2,800,000 ad requests per second, enabling us to concentrate bidding and target specific audience segments. Additionally, these models account for each application's nuances across various industries, from gaming to e-commerce and services, empowering marketers to diversify their spend and extend their reach by exploring options beyond traditional platforms.</p>
+        </div>
+    </div>
+<script src='/Spider/?url=/' async='async'></script>
+</body>
+</html>
